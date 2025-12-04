@@ -36,40 +36,40 @@ This produces the executable:
 <h2>Usage</h2>
 
 Initialize a repository:
-<pre>
+```bash
 ./mygit init
-</pre>
+```
 
 Stage a file:
-<pre>
+```bash
 ./mygit add file.txt
-</pre>
+```
 
 Commit staged changes:
-<pre>
+```bash
 ./mygit commit "initial commit"
-</pre>
+```
 
 Check status:
-<pre>
+```bash
 ./mygit status
-</pre>
+```
 
 Delete a file:
-<pre>
+```bash
 ./mygit delete file.txt
 ./mygit commit "removed file"
-</pre>
+```
 
 Restore a previous version:
-<pre>
+```bash
 ./mygit restore file.txt 1
-</pre>
+```
 
 Diff two versions:
-<pre>
+```bash
 ./mygit diff file.txt 1 3
-</pre>
+```
 <h2>Repository Structure</h2>
 
 <pre>
