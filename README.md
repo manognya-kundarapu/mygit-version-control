@@ -35,38 +35,38 @@ This produces the executable:
 
 <h2>Usage</h2>
 
-<h3>Initialize a repository:</h3>
+Initialize a repository:
 <pre>
 ./mygit init
 </pre>
 
-<h3>Stage a file:</h3>
+Stage a file:
 <pre>
 ./mygit add file.txt
 </pre>
 
-<h3>Commit staged changes:</h3>
+Commit staged changes:
 <pre>
 ./mygit commit "initial commit"
 </pre>
 
-<h3>Check status:</h3>
+Check status:
 <pre>
 ./mygit status
 </pre>
 
-<h3>Delete a file:</h3>
+Delete a file:
 <pre>
 ./mygit delete file.txt
 ./mygit commit "removed file"
 </pre>
 
-<h3>Restore a previous version:</h3>
+Restore a previous version:
 <pre>
 ./mygit restore file.txt 1
 </pre>
 
-<h3>Diff two versions:</h3>
+Diff two versions:
 <pre>
 ./mygit diff file.txt 1 3
 </pre>
